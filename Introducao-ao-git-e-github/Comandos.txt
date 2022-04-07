@@ -1,0 +1,22 @@
+dir: Lista os diretórios na pasta que a gente está situado (linux: uls)
+
+cd(change directory - Igual para todos os OS): Vai possibilitar que a gente navegue entre as pastas e mude a pasta que a gente vai navegar, por exemplo: cd nomeDaPasta
+
+cd /: Leva para a base do diretório 
+
+cd.. - Faz você voltar para o diretório anterior
+
+cls: Comando feito para limpar a tela do cmd (Linus: clear)
+
+mkdir(make directory): Comando criado para criar uma pasta - mkdir nomeDaPasta
+
+silence on sucess: Se o cmd não voltar nada, foi porque o comando deu certo - É um conceito
+
+echo: Comando para retornar o que você digitou logo após - echo hello 
+
+echo nomeDoArquivo > nomeDoArquivo.nomeDaExtensao: O maior que juntamento coma  extensão do arquivo, cria ele no diretório atual ex: echo hello > hello.txt 
+
+del: Comando usado para deletar arquivos. Agora lembre-se que esse comando só limpa arquivos ou todos os arquivos de uma pasta, e não a própria pasta.
+
+rmdir: Agora sim, esse é o comando para remover a pasta e todo o seu conteúdo. Você precisará usar duas flags senão ele vai negar a exclusão, pois dirá que ainda têm arquivos na pasta. Portanto, junto do comando passe a flag /S /Q. Ex: rmdir workspace /S /Q
+

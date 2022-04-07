@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		cadeia frutas[4]
+		frutas[0]="Maça"
+		frutas[1]="Pera"
+		frutas[2]="Uva"
+		frutas[3]="Jaca"
+
+		escreva(frutas[2])
+
+		para(inteiro i = 0; i <= 3; i++){
+			escreva("\n" + frutas[i])
+		}
+	}
+}
